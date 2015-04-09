@@ -1,27 +1,6 @@
 # se-hostfile-cookbook
 
-TODO: Enter the cookbook description here.
-
-## Supported Platforms
-
-TODO: List your supported platforms.
-
-## Attributes
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['se-hostfile']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+Sets up hostfile records for shard1 (33.33.33.42) and shard2 (33.33.33.43).
 
 ## Usage
 
@@ -36,7 +15,3 @@ Include `se-hostfile` in your node's `run_list`:
   ]
 }
 ```
-
-## License and Authors
-
-Author:: YOUR_NAME (<YOUR_EMAIL>)
